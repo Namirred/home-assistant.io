@@ -21,7 +21,7 @@ The **AccuWeather** {% term integration %} uses the [AccuWeather](https://accuwe
 
 ## Setup
 
-To generate an AccuWeather API key, go to [AccuWeather APIs](https://developer.accuweather.com/) page, register and create application with the following settings:
+To generate an AccuWeather API key, go to [AccuWeather APIs](https://developer.accuweather.com/) page, register and create an application with the following settings:
 - Products
   - Core Weather
     - **Core Weather Limited Trial**
@@ -43,6 +43,6 @@ You can test your newly created API key [here](https://developer.accuweather.com
 {% include integrations/config_flow.md %}
 
 {% important %}
-Due to limitations of the terms of use of AccuWeather free API key, it is possible to configure only one integration instance.
+Due to limitations of the terms of use of the AccuWeather free API key, it is possible to configure only one integration instance.
 The Limited Trial account only allows 50 API calls per day.
 {% endimportant %}
